@@ -5,7 +5,6 @@ public class AppendA {
             System.out.println(i + "a");
         }
     }
-
 }
 // - Create an array variable named `animals`
 //   with the following content: `["koal", "pand", "zebr"]`
