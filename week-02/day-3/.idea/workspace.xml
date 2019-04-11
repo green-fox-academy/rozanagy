@@ -1,21 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="53d6cd19-8d60-42ef-9730-50e21ea41208" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../day-2/src/mapIntroduction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CenterBoxFunction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CenteredSquare.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ColoredBox.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Diagonals.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FourRectangles.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GoToCenter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HorizontalLines.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LineInTheMiddle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PositionSquare.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/RainbowBoxFunction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day-1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../day-1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day-2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../day-2/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="53d6cd19-8d60-42ef-9730-50e21ea41208" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -223,6 +209,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -298,12 +285,12 @@
       <option name="presentableId" value="Default" />
       <updated>1554885903063</updated>
       <workItem from="1554885907065" duration="497000" />
-      <workItem from="1554886630824" duration="19672000" />
+      <workItem from="1554886630824" duration="20011000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20169000" />
+    <option name="totallyTimeSpent" value="20508000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="807" extended-state="0" />
@@ -320,7 +307,7 @@
       <window_info anchor="bottom" id="Docker" order="1" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="2" />
       <window_info anchor="bottom" id="Find" order="3" />
-      <window_info anchor="bottom" id="Run" order="4" visible="true" weight="0.32867134" />
+      <window_info anchor="bottom" id="Run" order="4" weight="0.32867134" />
       <window_info anchor="bottom" id="Debug" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
