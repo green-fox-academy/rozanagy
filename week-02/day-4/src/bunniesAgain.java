@@ -9,7 +9,7 @@ public class bunniesAgain {
         }
     }
     public static void main(String[] args) {
-        System.out.println(earCounter(10));
+        System.out.println(earCounter(5));
     }
 }
 //We have bunnies standing in a line, numbered 1, 2, ...
