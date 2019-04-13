@@ -5,8 +5,7 @@ public class Colors {
                 {"orange red", "red", "tomato"},
                 {"orchid", "violet", "pink", "hot pink"}
         };
-        String x = colors[2][1];
-        System.out.println(x);
+        System.out.println(colors[2][1]);
     }
 }
 // - Create a two dimensional array

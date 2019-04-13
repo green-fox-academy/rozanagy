@@ -1,10 +1,9 @@
 public class Doubling {
-    public static void doubling() {
-        int baseNum = 123;
-        System.out.println(baseNum * 2);
+    public static void doubling(int baseNum) {
+        System.out.println((baseNum * 2));
     }
     public static void main(String[] args) {
-        doubling();
+        doubling(123);
     }
 }
 // - Create an integer variable named `baseNum` and assign the value `123` to it

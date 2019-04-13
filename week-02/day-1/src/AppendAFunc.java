@@ -1,10 +1,10 @@
 public class AppendAFunc {
-    public static void appendAFunc() {
-        String typo = "Chinchill";
+    public static void appendAFunc(String typo) {
         System.out.println(typo + "a");
     }
     public static void main(String[] args) {
-        appendAFunc();
+        String typo = "Chinchill";
+        appendAFunc(typo);
     }
 }
 //  Create the usual class wrapper

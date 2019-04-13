@@ -1,10 +1,10 @@
 public class Greet {
-    public static void greet() {
-        String al = "Greenfox";
+    public static void greet(String al) {
         System.out.print("Greetings dear, " + al);
     }
     public static void main(String[] args) {
-        greet();
+        String al = "Greenfox";
+        greet(al);
     }
 }
 //  From now on, create the usual class wrapper
