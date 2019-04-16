@@ -5,8 +5,7 @@ public class TakesLonger {
         String endOfSentence = quote.substring(20);
         String a = "always takes longer than";
 
-
-        System.out.println(quote = beginningOfSentence + a + endOfSentence);
+        System.out.println(beginningOfSentence + a + endOfSentence);
     }
 }
 // When saving this quote a disk error has occured. Please fix it.
