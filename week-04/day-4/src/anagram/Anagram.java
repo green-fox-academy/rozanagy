@@ -8,18 +8,20 @@ public class Anagram {
         String input1 = "dog";
         String input2 = "god";
 
-        isAnagram(input1, input2);
+        boolean output = isAnagram(input1, input2);
+
+        System.out.println(output);
 
     }
 
-    public static void isAnagram(String input1, String input2) {
+    public static boolean isAnagram(String input1, String input2) {
         //Remove all whitespace
-        String s1 = input1.replaceAll("\\s", "");
-        String s2 = input2.replaceAll("\\s", "");
+        String s1 = input1.replaceAll(" ", "");
+        String s2 = input2.replaceAll(" ", "");
 
-        boolean status =  true;
+        boolean status = true;
 
-        if(s1.length() != s2.length()) {
+        if (s1.length() != s2.length()) {
             status = false;
         } else {      //Convert into character array
             char[] s1Array = s1.toLowerCase().toCharArray();
@@ -30,11 +32,7 @@ public class Anagram {
 
             status = Arrays.equals(s1Array, s2Array);  //Check if both arrays are equal
         }
+        return status;
 
-        if(status) {
-            System.out.println(s1 + " and " + s2 + " are anagrams.");
-        } else {
-            System.out.println(s1 + " and " + s2 + " are not anagrams.");
-        }
     }
 }
