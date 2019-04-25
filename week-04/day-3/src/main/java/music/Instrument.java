@@ -1,4 +1,12 @@
 package main.java.music;
 
-public class Instrument {
+public abstract class Instrument {
+
+    protected String instrumentName;
+
+
+
+    public void play() {
+
+    }
 }
