@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a1dd6160-bf9f-4c51-9111-130decb0fd4d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/apple/Apple.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/apple/AppleTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day-3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../day-3/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day-3/src/AppMusic.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day-3/src/AppMusic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day-3/src/main/java/music/BassGuitar.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day-3/src/main/java/music/BassGuitar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day-3/src/main/java/music/ElectricGuitar.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day-3/src/main/java/music/ElectricGuitar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day-3/src/main/java/music/Instrument.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day-3/src/main/java/music/Instrument.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day-3/src/main/java/music/StringedInstruments.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day-3/src/main/java/music/StringedInstruments.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day-3/src/main/java/music/Violin.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day-3/src/main/java/music/Violin.java" afterDir="false" />
-    </list>
+    <list default="true" id="a1dd6160-bf9f-4c51-9111-130decb0fd4d" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -41,16 +31,16 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tests/apple/AppleTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="24" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="24" />
+            <state relative-caret-position="345">
+              <caret line="23" column="39" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#107#108#0" expanded="true" />
                 <element signature="e#141#142#0" expanded="true" />
                 <element signature="e#274#275#0" expanded="true" />
                 <element signature="e#329#330#0" expanded="true" />
-                <element signature="e#423#424#0" expanded="true" />
-                <element signature="e#480#481#0" expanded="true" />
+                <element signature="e#430#431#0" expanded="true" />
+                <element signature="e#485#486#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -114,23 +104,6 @@
             </path>
             <path>
               <item name="day-4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="day-4" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="apple" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="day-4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="day-4" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="day-4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="day-4" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
-              <item name="apple" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="day-4" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
@@ -146,6 +119,7 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
@@ -209,7 +183,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1556183027603</updated>
-      <workItem from="1556183028924" duration="1637000" />
+      <workItem from="1556183028924" duration="1927000" />
     </task>
     <servers />
   </component>
@@ -220,20 +194,25 @@
     <history-entry file="AppleTest - 2019.04.25 at 11h 29m 25s.xml">
       <configuration name="AppleTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="AppleTest - 2019.04.25 at 11h 31m 10s.xml">
+      <configuration name="AppleTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AppleTest - 2019.04.25 at 11h 33m 20s.xml">
+      <configuration name="AppleTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1637000" />
+    <option name="totallyTimeSpent" value="1927000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="807" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
       <window_info id="Designer" />
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
@@ -243,7 +222,7 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32867134" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32867134" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -276,16 +255,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/apple/AppleTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="24" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="24" />
+        <state relative-caret-position="345">
+          <caret line="23" column="39" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#107#108#0" expanded="true" />
             <element signature="e#141#142#0" expanded="true" />
             <element signature="e#274#275#0" expanded="true" />
             <element signature="e#329#330#0" expanded="true" />
-            <element signature="e#423#424#0" expanded="true" />
-            <element signature="e#480#481#0" expanded="true" />
+            <element signature="e#430#431#0" expanded="true" />
+            <element signature="e#485#486#0" expanded="true" />
           </folding>
         </state>
       </provider>
