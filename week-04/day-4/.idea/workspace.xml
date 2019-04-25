@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a1dd6160-bf9f-4c51-9111-130decb0fd4d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/countLetters/CountLetters.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/countLetters/CountLetters.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/countLetters/CountLetters.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,8 +20,20 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/countLetters/CountLetters.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+            <state relative-caret-position="180">
+              <caret line="12" column="10" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/anagram/Anagram.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="64">
+              <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="47" />
             </state>
           </provider>
         </entry>
@@ -51,8 +62,8 @@
         <option value="$PROJECT_DIR$/tests/sum/SumTest.java" />
         <option value="$PROJECT_DIR$/src/anagram/Anagram.java" />
         <option value="$PROJECT_DIR$/tests/anagram/AnagramTest.java" />
-        <option value="$PROJECT_DIR$/src/countLetters/CountLetters.java" />
         <option value="$PROJECT_DIR$/src/countLetters/Main.java" />
+        <option value="$PROJECT_DIR$/src/countLetters/CountLetters.java" />
       </list>
     </option>
   </component>
@@ -80,6 +91,12 @@
               <item name="day-4" type="b2602c69:ProjectViewProjectNode" />
               <item name="day-4" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="day-4" type="b2602c69:ProjectViewProjectNode" />
+              <item name="day-4" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="anagram" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="day-4" type="b2602c69:ProjectViewProjectNode" />
@@ -138,13 +155,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.AnagramTest.isAnagramShouldReturnFalseIfEmptyString">
-    <configuration name="Anagram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="anagram.Anagram" />
+  <component name="RunManager" selected="Application.CountLetters">
+    <configuration name="CountLetters" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="countLetters.CountLetters" />
       <module name="day-4" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="anagram.*" />
+          <option name="PATTERN" value="countLetters.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -218,11 +235,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CountLetters" />
         <item itemvalue="JUnit.AnagramTest.isAnagramShouldReturnFalseIfEmptyString" />
         <item itemvalue="JUnit.AnagramTest.isAnagramShouldThrowExceptionIfEmptyString" />
         <item itemvalue="JUnit.AnagramTest.isAnagramShouldReturnFalseIfNotAnagram" />
         <item itemvalue="JUnit.AnagramTest.isAnagramShouldReturnCorrectlyIfAnagram" />
-        <item itemvalue="Application.Anagram" />
       </list>
     </recent_temporary>
   </component>
@@ -236,7 +253,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1556183027603</updated>
-      <workItem from="1556183028924" duration="11138000" />
+      <workItem from="1556183028924" duration="13474000" />
     </task>
     <servers />
   </component>
@@ -273,7 +290,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11138000" />
+    <option name="totallyTimeSpent" value="13474000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="807" extended-state="0" />
@@ -284,7 +301,7 @@
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Messages" weight="0.32867134" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
@@ -294,7 +311,7 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32867134" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32867134" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -348,13 +365,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/anagram/Anagram.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tests/anagram/AnagramTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
@@ -391,10 +401,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/anagram/Anagram.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/countLetters/CountLetters.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+        <state relative-caret-position="180">
+          <caret line="12" column="10" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
