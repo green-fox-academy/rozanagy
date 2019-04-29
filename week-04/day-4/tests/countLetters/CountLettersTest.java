@@ -34,7 +34,7 @@ public class CountLettersTest {
         assertNotEquals(myTestMap, countLetters.counterLettersDictionary("cup"));
     }
 
-    @Test (expected = NullPointerException.class)
+    @Test(expected = NullPointerException.class)
     public void counterLetterDictionaryShouldThrowExceptionIfEmptyMap() {
         HashMap<Character, Integer> myTestMap = new HashMap<>();
         myTestMap.put(null, null);

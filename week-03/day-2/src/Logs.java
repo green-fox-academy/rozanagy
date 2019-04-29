@@ -6,45 +6,51 @@ import java.nio.file.Files;
 import java.nio.file.NoSuchFileException;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Scanner;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 
 public class Logs {
     public static void main(String[] args) {
-        Path filePath = Paths.get("assets/log.txt");
+        Path filePath = Paths.get("assets/logs.txt");
 
         try {
-            System.out.println(getIpAddresses(filePath));
+            List<String> lines = Files.readAllLines(filePath);
+            System.out.println(getIpAddresses(lines));
+            System.out.println(calculateRatio(lines));
         } catch (IOException e) {
-            e.printStackTrace();
+            System.out.println("File not found.");
         }
 
     }
 
-    private static List<String> getIpAddresses(Path filePath) throws IOException {
+    private static List<String> getIpAddresses(List<String> lines) {
         List<String> ipAddresses = new ArrayList<>();
-        List<String> lines = Files.readAllLines(filePath);
         for(String line : lines) {
             line.split("\\s+");
             String[] splitLine = line.split("\\s+");
             ipAddresses.add(splitLine[5]);
+        }
+        return ipAddresses;
+    }
 
+
+    private static float calculateRatio(List<String> lines) {
+        int getCounter = 0;
+        int postCounter = 0;
+        for(String line : lines) {
+            line.split("\\s+");
+            String[] splitLine = line.split("\\s+");
+            String sixthColumn = splitLine[6];
+            if("GET".equals(sixthColumn)) {
+                getCounter++;
+
+            } else if("POST".equals(sixthColumn)) {
+                postCounter++;
+            }
         }
 
-
-
-        return ipAddresses;
-
+        return postCounter == 0 ? 0.0f : getCounter / postCounter;
     }
-
-
-    private static float ratioMethod(Path filePath) {
-        return 0.0f;
-
-
-    }
-
 
 }
 

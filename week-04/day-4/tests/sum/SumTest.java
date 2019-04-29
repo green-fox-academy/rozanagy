@@ -22,7 +22,7 @@ public class SumTest {
         ArrayList<Integer> listOfNumbers = new ArrayList<>();
         listOfNumbers.add(10);
         listOfNumbers.add(12);
-        assertEquals(22,sum.sum(listOfNumbers));
+        assertEquals(22, sum.sum(listOfNumbers));
     }
 
     @Test
@@ -30,7 +30,7 @@ public class SumTest {
         ArrayList<Integer> listOfNumbers = new ArrayList<>();
         listOfNumbers.add(10);
         listOfNumbers.add(12);
-        assertNotEquals(25,sum.sum(listOfNumbers));
+        assertNotEquals(25, sum.sum(listOfNumbers));
     }
 
     @Test
@@ -47,7 +47,7 @@ public class SumTest {
         assertEquals(10, sum.sum(listOfNumbers));
     }
 
-    @Test (expected = NullPointerException.class)
+    @Test(expected = NullPointerException.class)
     public void sumWithAListWithNullElementShouldThrowAnException() {
         ArrayList<Integer> listOfNumbers = new ArrayList<>();
         listOfNumbers.add(null);

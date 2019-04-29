@@ -16,32 +16,30 @@ public class CountLetters {
     }
 
 
+    public static HashMap<Character, Integer> counterLettersDictionary(String input) {
 
-        public static HashMap<Character, Integer> counterLettersDictionary (String input){
+        HashMap<Character, Integer> dictionary = new HashMap<>();
+        String s1 = input.replaceAll(" ", "");
+        s1 = s1.toLowerCase();
 
-            HashMap<Character, Integer> dictionary = new HashMap<>();
-            String s1 = input.replaceAll(" ", "");
-            s1 = s1.toLowerCase();
+        char[] inputArray = s1.toCharArray();
+        char[] sortedArray = s1.toCharArray();
+        Arrays.sort(input.toCharArray());
 
-            char[] inputArray = s1.toCharArray();
-            char[] sortedArray = s1.toCharArray();
-            Arrays.sort(input.toCharArray());
-
-            int counter = 0;
-            for (char c : inputArray) {
-                for (char s : sortedArray) {
-                    if (c == s) {
-                        counter++;
-                    }
+        int counter = 0;
+        for (char c : inputArray) {
+            for (char s : sortedArray) {
+                if (c == s) {
+                    counter++;
                 }
-                dictionary.put(c, counter);
-                counter = 0;
             }
-            return dictionary;
-
-
+            dictionary.put(c, counter);
+            counter = 0;
         }
+        return dictionary;
 
+
+    }
 
 
 }
