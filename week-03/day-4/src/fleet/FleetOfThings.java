@@ -15,7 +15,7 @@ public class FleetOfThings {
 
     standUp.complete();
     eatLunch.complete();
-    
+
     // Create a fleet of things to have this output:
     // 1. [ ] Get milk
     // 2. [ ] Remove the obstacles
