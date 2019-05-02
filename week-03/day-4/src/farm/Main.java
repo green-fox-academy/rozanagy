@@ -8,6 +8,8 @@ public class Main {
     Animal cat = new Animal();
     Animal cow = new Animal();
     Animal pig = new Animal();
+    Animal horse = new Animal();
+    Animal chicken = new Animal();
 
     ArrayList<Animal> listOfAnimals = new ArrayList<>();
 
@@ -17,7 +19,13 @@ public class Main {
     listOfAnimals.add(pig);
 
     Farm farm = new Farm();
-    
+
+    farm.breed();
+    farm.slaughter();
+
+
+
+
 
 
 

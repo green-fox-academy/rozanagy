@@ -10,6 +10,7 @@ public class Farm {
 
   public Farm() {
     this.listOfAnimals = new ArrayList<>();
+    this.slots = 5;
   }
 
 
@@ -17,7 +18,6 @@ public class Farm {
     if(listOfAnimals.size() < slots) {
       listOfAnimals.add(new Animal());
     }
-
   }
 
   public void slaughter() {
@@ -31,7 +31,6 @@ public class Farm {
     }
     listOfAnimals.remove(indexOfAnimal);
   }
-
 }
 /*Create a Farm class
 it has list of Animals
