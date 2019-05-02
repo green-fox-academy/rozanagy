@@ -1,7 +1,7 @@
 package school;
 
 public class Student {
-  
+
   public void learn() {
 
   }
