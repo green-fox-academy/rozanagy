@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1d472d30-0480-4680-a782-5c357c7f7224" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Exercise11.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../week-02/day-2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week-02/day-2/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../week-02/day-2/src/ListIntroduction2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../week-02/day-2/src/ListIntroduction2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../week-04/day-2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week-04/day-2/.idea/workspace.xml" afterDir="false" />
@@ -11,17 +10,6 @@
       <change beforePath="$PROJECT_DIR$/../../week-04/day-2/src/aircraft_carrier/F35.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../week-04/day-2/src/aircraft_carrier/F35.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../week-04/day-5/foundation-example-exam" beforeDir="false" afterPath="$PROJECT_DIR$/../../week-04/day-5/foundation-example-exam" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../week-05/day-5/ferrilata-foundation-normal-exam" beforeDir="false" afterPath="$PROJECT_DIR$/../../week-05/day-5/ferrilata-foundation-normal-exam" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Exercise1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Exercise1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Exercise10/Fox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Exercise10/Fox.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Exercise10/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Exercise10/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Exercise2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Exercise2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Exercise3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Exercise3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Exercise4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Exercise4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Exercise5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Exercise5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Exercise6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Exercise6.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Exercise7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Exercise7.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Exercise8.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Exercise8.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Exercise9.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Exercise9.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -39,19 +27,13 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Exercise11.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="17" column="19" lean-forward="true" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
+            <state relative-caret-position="398">
+              <caret line="27" column="1" lean-forward="true" selection-start-line="27" selection-start-column="1" selection-end-line="37" selection-end-column="3" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#565#582#0" expanded="true" />
               </folding>
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/randomWiki.txt">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -125,6 +107,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -205,15 +188,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1557825001914</updated>
-      <workItem from="1557825003261" duration="15265000" />
+      <workItem from="1557825003261" duration="15942000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15265000" />
+    <option name="totallyTimeSpent" value="15942000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="807" extended-state="1" />
+    <frame x="0" y="23" width="1440" height="807" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
@@ -221,7 +204,7 @@
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
@@ -231,7 +214,7 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32867134" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32867134" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -378,11 +361,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Exercise11.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="17" column="19" lean-forward="true" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
+        <state relative-caret-position="398">
+          <caret line="27" column="1" lean-forward="true" selection-start-line="27" selection-start-column="1" selection-end-line="37" selection-end-column="3" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#565#582#0" expanded="true" />
           </folding>
         </state>
       </provider>
