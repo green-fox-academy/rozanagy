@@ -1,0 +1,47 @@
+table {
+    width: 700px;
+    margin: auto;
+   border-collapse:collapse;
+   border: 1px solid grey;
+}
+
+th, td {
+    border: 1px solid grey;
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-size: 25px;
+}
+
+
+tr {
+    color: gray;
+}
+
+tr:nth-child(2n - 1) {
+    background-color: gainsboro;
+}
+
+th {
+    background-color: black;
+    border-bottom: 3px solid grey;
+    color: ghostwhite;
+    font-size: 30px;
+    height: 50px;
+    padding: 15px;
+    vertical-align: middle;   
+}
+
+table {
+    border-radius: 20px;
+}
+
+
+td {
+    height: 40px;
+    padding: 15px;
+    vertical-align: middle;    
+}
+
+
+
