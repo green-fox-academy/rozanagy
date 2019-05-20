@@ -12,6 +12,12 @@ input[type=text], input[type=password] {
   box-sizing: border-box;
 }
 
+input[type=password] {
+  background: url(assets/65000.png) no-repeat;
+  background-size: 15px;
+  background-position: 95%;
+}
+
 h1 {
   font-family: 'Roboto', sans-serif;
   font-size: 25px;
