@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+  <title>Thymeleaf Exercise #</title>
+  <meta charset="utf-8"/>
+</head>
+<body>
+<p th:if="${emailAddress.contains('@') && emailAddress.contains('.')}" th:text=" ${emailAddress} + ' is a valid email address ' " th:style="${'color: green'}"></p><br>
+<p th:unless="${emailAddress.contains('@') && emailAddress.contains('.')}" th:text=" ${emailAddress} + ' is a not valid email address ' " th:style="${'color: red'}"></p><br>
+</body>
+</html>
