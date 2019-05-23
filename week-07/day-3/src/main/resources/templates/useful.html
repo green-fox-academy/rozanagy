@@ -5,10 +5,10 @@
   <meta charset="utf-8"/>
 </head>
 <body>
-  <a href="http://localhost:8080/useful">USEFUL</a><br>
-  <a href="http://localhost:8080/useful/colored">COLORED</a><br>
-  <a href="http://localhost:8080/useful/email?email=is@this.valid">EMAIL</a><br>
-  <a href="http://localhost:8080/useful/encoder">ENCODER</a><br>
-  <a href="http://localhost:8080/useful/decoder">DECODER</a><br>
+  <li><a th:href="@{/useful}">USEFUL</a></li><br>
+  <li><a th:href="@{/useful/colored}">COLORED</a></li><br>
+  <li><a th:href="@{/useful/email(email='valid@email.is')}">EMAIL</a></li><br>
+  <li><a th:href="@{/useful/encoder(text='example', number=1)}">ENCODER</a></li><br>
+  <li><a th:href="@{/useful/encode(text='fybnqmf', number=-1)}">DECODER</a></li><br>
 </body>
 </html>
