@@ -7,13 +7,10 @@ import java.util.ArrayList;
 public class Fox {
   private String foxName;
   private ArrayList<String> listOfTricks = new ArrayList<>();
-  private String food;
-  private String drink;
 
   public Fox(String foxName) {
     this.foxName = foxName;
   }
-
 
   public String getFoxName() {
     return foxName;
@@ -23,11 +20,4 @@ public class Fox {
     return listOfTricks;
   }
 
-  public String getFood() {
-    return food;
-  }
-
-  public String getDrink() {
-    return drink;
-  }
 }

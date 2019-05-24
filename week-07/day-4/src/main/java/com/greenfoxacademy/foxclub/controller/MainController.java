@@ -15,7 +15,7 @@ public class MainController {
 
   @RequestMapping("/")
   public String index(Model model, @RequestParam(required = false) String name) {
-    if(name == null) {
+    if (name == null) {
       return "login";
     } else {
       Fox fox = new Fox(name);
@@ -35,4 +35,12 @@ public class MainController {
     return "redirect:/?name=" + name;
   }
 
+  @RequestMapping("/nutritionStore")
+  public String nutritionSelector(@RequestParam String name) {
+    if (name == null) {
+      return "login";
+    } else {
+      return "nutrition";
+    }
+  }
 }
