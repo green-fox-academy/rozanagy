@@ -6,9 +6,9 @@ import java.util.ArrayList;
 
 public class Fox {
   private String foxName;
-  private ArrayList<String> listOfTricks;
-  private ArrayList<String> food;
-  private ArrayList<String> drink;
+  public ArrayList<String> listOfTricks = new ArrayList<>();
+  private String food;
+  private String drink;
 
   public Fox(String foxName) {
     this.foxName = foxName;
@@ -23,11 +23,11 @@ public class Fox {
     return listOfTricks;
   }
 
-  public ArrayList<String> getFood() {
+  public String getFood() {
     return food;
   }
 
-  public ArrayList<String> getDrink() {
+  public String getDrink() {
     return drink;
   }
 }

@@ -1,12 +1,17 @@
 package com.greenfoxacademy.foxclub.controller;
 
 import com.greenfoxacademy.foxclub.Fox;
+import com.greenfoxacademy.foxclub.FoxService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 
 @Controller
 public class MainController {
+
+  @Autowired
+  private FoxService foxService;
 
   @RequestMapping("/")
   public String index(Model model, @RequestParam(required = false) String name) {
@@ -15,6 +20,7 @@ public class MainController {
     } else {
       Fox fox = new Fox(name);
       model.addAttribute("fox", fox);
+      foxService.addNewFox(fox);
     }
     return "index";
   }
