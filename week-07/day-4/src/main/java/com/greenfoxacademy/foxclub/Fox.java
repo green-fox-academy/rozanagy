@@ -6,7 +6,7 @@ import java.util.ArrayList;
 
 public class Fox {
   private String foxName;
-  public ArrayList<String> listOfTricks = new ArrayList<>();
+  private ArrayList<String> listOfTricks = new ArrayList<>();
   private String food;
   private String drink;
 
