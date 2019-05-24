@@ -1,5 +1,7 @@
 package com.greenfoxacademy.foxclub.controller;
 
+import com.greenfoxacademy.foxclub.DrinkService;
+import com.greenfoxacademy.foxclub.FoodService;
 import com.greenfoxacademy.foxclub.Fox;
 import com.greenfoxacademy.foxclub.FoxService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -12,6 +14,8 @@ public class MainController {
 
   @Autowired
   private FoxService foxService;
+  private FoodService foodService;
+  private DrinkService drinkService;
 
   @RequestMapping("/")
   public String index(Model model, @RequestParam(required = false) String name) {
@@ -40,6 +44,7 @@ public class MainController {
     if (name == null) {
       return "login";
     } else {
+
       return "nutrition";
     }
   }

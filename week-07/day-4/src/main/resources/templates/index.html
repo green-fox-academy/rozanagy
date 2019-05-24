@@ -10,7 +10,7 @@
     <li><a th:href="@{/nutritionStore}">Nutrition Store</a></li>
   </ul>
   <img th:src="@{greenfoxImage.png}" />
-  <p> This is <span th:text="${fox.getFoxName()}" />. Currently living on <span th:text="${fox.getFood()}" /> and <span th:text="${fox.getDrink()}" />. He knows <span th:text="${fox.getListOfTricks().size()}" /> tricks.</p>
+  <p> This is <span th:text="${fox.getFoxName()}" />. Currently living on <span th:text="${}" /> and <span th:text="${}" />. He knows <span th:text="${fox.getListOfTricks().size()}" /> tricks.</p>
   <h1> Known tricks </h1>
     <p th:if="${fox.getListOfTricks().size()==0}"> You know no tricks yet, go and learn some!<p/>
 
