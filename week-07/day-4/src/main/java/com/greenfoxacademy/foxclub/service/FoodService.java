@@ -3,6 +3,7 @@ package com.greenfoxacademy.foxclub.service;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
+import java.util.List;
 
 @Service
 public class FoodService {
@@ -17,7 +18,7 @@ public class FoodService {
     foods.add("Sweet Potato Browne");
   }
 
-  public ArrayList<String> findAll() {
+  public List<String> findAll() {
     return foods;
   }
 }

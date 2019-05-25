@@ -4,10 +4,11 @@ import com.greenfoxacademy.foxclub.Fox;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
+import java.util.List;
 
 @Service
 public class FoxService {
-  ArrayList<Fox> foxes;
+  List<Fox> foxes;
 
   public FoxService() {
     foxes = new ArrayList<>();
@@ -17,7 +18,25 @@ public class FoxService {
     foxes.add(fox);
   }
 
+  public boolean searchForFox(String name) {
+    for(Fox fox : foxes) {
+      if(name.equals(fox.getFoxName())) {
+        return true;
+      }
+    }
+    return false;
+  }
 
+  public Fox findTheFox(String name) {
+    for(Fox fox : foxes) {
+      if(name.equals(fox.getFoxName())) {
+        return fox;
+      }
+    }
+    return new Fox(name);
+  }
 
-
+  public List<Fox> getFoxes() {
+    return foxes;
+  }
 }

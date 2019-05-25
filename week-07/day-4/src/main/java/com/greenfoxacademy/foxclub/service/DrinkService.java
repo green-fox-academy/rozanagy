@@ -1,20 +1,25 @@
 package com.greenfoxacademy.foxclub.service;
 
-import com.greenfoxacademy.foxclub.Drink;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
+import java.util.List;
 
 @Service
 public class DrinkService {
-  ArrayList<Drink> drinks;
+  ArrayList<String> drinks;
 
   public DrinkService() {
     drinks = new ArrayList<>();
+    drinks.add("Oat Milk Latte");
+    drinks.add("Still Water");
+    drinks.add("Natural Wine");
+    drinks.add("Indian Pale Ale");
+    drinks.add("Apricot Juice");
   }
 
-  public void addNewDrink(Drink drink) {
-    drinks.add(drink);
+  public List<String> findAll() {
+    return drinks;
   }
 
 }
