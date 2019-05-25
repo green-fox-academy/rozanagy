@@ -1,0 +1,23 @@
+package com.greenfoxacademy.foxclub.service;
+
+import org.springframework.stereotype.Service;
+
+import java.util.ArrayList;
+
+@Service
+public class FoodService {
+  ArrayList<String> foods;
+
+  public FoodService() {
+    foods = new ArrayList<>();
+    foods.add("Green Salad");
+    foods.add("Red Lentil Curry");
+    foods.add("Pad Thai");
+    foods.add("Vegan Pizza");
+    foods.add("Sweet Potato Browne");
+  }
+
+  public ArrayList<String> findAll() {
+    return foods;
+  }
+}

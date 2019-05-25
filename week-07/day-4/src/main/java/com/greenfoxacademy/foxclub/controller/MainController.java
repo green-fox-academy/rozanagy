@@ -1,9 +1,9 @@
 package com.greenfoxacademy.foxclub.controller;
 
-import com.greenfoxacademy.foxclub.DrinkService;
-import com.greenfoxacademy.foxclub.FoodService;
+import com.greenfoxacademy.foxclub.service.DrinkService;
+import com.greenfoxacademy.foxclub.service.FoodService;
 import com.greenfoxacademy.foxclub.Fox;
-import com.greenfoxacademy.foxclub.FoxService;
+import com.greenfoxacademy.foxclub.service.FoxService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -41,11 +41,6 @@ public class MainController {
 
   @RequestMapping("/nutritionStore")
   public String nutritionSelector(@RequestParam String name) {
-    if (name == null) {
-      return "login";
-    } else {
-
-      return "nutrition";
-    }
+    return name == null ? "login" : "nutrition";
   }
 }

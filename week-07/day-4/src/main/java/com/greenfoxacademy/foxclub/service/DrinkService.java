@@ -1,5 +1,6 @@
-package com.greenfoxacademy.foxclub;
+package com.greenfoxacademy.foxclub.service;
 
+import com.greenfoxacademy.foxclub.Drink;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
