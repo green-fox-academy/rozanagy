@@ -11,11 +11,11 @@ import java.util.List;
 @Controller
 public class MultipleAccountController {
   List<BankAccount> accountList = Arrays.asList(
-    new BankAccount("Nala", 5000, "lion"),
-    new BankAccount("Zazu", 500, "bird"),
-    new BankAccount("Pumbaa", 600, "warthog"),
-    new BankAccount("Timon", 100, "meerkat"),
-    new BankAccount("Rafiki", 10000, "mandrill")
+      new BankAccount("Nala", 5000, "lion"),
+      new BankAccount("Zazu", 500, "bird"),
+      new BankAccount("Pumbaa", 600, "warthog"),
+      new BankAccount("Timon", 100, "meerkat"),
+      new BankAccount("Rafiki", 10000, "mandrill")
   );
 
   @RequestMapping("/account")

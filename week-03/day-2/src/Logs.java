@@ -10,47 +10,47 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 
 public class Logs {
-    public static void main(String[] args) {
-        Path filePath = Paths.get("assets/logs.txt");
+  public static void main(String[] args) {
+    Path filePath = Paths.get("assets/logs.txt");
 
-        try {
-            List<String> lines = Files.readAllLines(filePath);
-            System.out.println(getIpAddresses(lines));
-            System.out.println(calculateRatio(lines));
-        } catch (IOException e) {
-            System.out.println("File not found.");
-        }
-
+    try {
+      List<String> lines = Files.readAllLines(filePath);
+      System.out.println(getIpAddresses(lines));
+      System.out.println(calculateRatio(lines));
+    } catch (IOException e) {
+      System.out.println("File not found.");
     }
 
-    private static List<String> getIpAddresses(List<String> lines) {
-        List<String> ipAddresses = new ArrayList<>();
-        for(String line : lines) {
-            line.split("\\s+");
-            String[] splitLine = line.split("\\s+");
-            ipAddresses.add(splitLine[5]);
-        }
-        return ipAddresses;
+  }
+
+  private static List<String> getIpAddresses(List<String> lines) {
+    List<String> ipAddresses = new ArrayList<>();
+    for (String line : lines) {
+      line.split("\\s+");
+      String[] splitLine = line.split("\\s+");
+      ipAddresses.add(splitLine[5]);
+    }
+    return ipAddresses;
+  }
+
+
+  private static float calculateRatio(List<String> lines) {
+    int getCounter = 0;
+    int postCounter = 0;
+    for (String line : lines) {
+      line.split("\\s+");
+      String[] splitLine = line.split("\\s+");
+      String sixthColumn = splitLine[6];
+      if ("GET".equals(sixthColumn)) {
+        getCounter++;
+
+      } else if ("POST".equals(sixthColumn)) {
+        postCounter++;
+      }
     }
 
-
-    private static float calculateRatio(List<String> lines) {
-        int getCounter = 0;
-        int postCounter = 0;
-        for(String line : lines) {
-            line.split("\\s+");
-            String[] splitLine = line.split("\\s+");
-            String sixthColumn = splitLine[6];
-            if("GET".equals(sixthColumn)) {
-                getCounter++;
-
-            } else if("POST".equals(sixthColumn)) {
-                postCounter++;
-            }
-        }
-
-        return postCounter == 0 ? 0.0f : getCounter / postCounter;
-    }
+    return postCounter == 0 ? 0.0f : getCounter / postCounter;
+  }
 
 }
 

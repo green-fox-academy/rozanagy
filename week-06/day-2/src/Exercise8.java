@@ -7,7 +7,7 @@ public class Exercise8 {
     List<Character> myCharacters = Arrays.asList('H', 'e', 'l', 'l', 'o');
 
     String myString = myCharacters.stream()
-        .map(String :: valueOf).collect(Collectors.joining());
+        .map(String::valueOf).collect(Collectors.joining());
 
     System.out.println(myString);
   }

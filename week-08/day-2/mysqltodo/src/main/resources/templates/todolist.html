@@ -5,25 +5,25 @@
   <meta charset="utf-8"/>
 </head>
 <body>
-  <h1>Todos for today:</h1>
-    <table>
-      <thead>
-      <tr>
-        <th>ID</th>
-        <th>ACTION</th>
-        <th>DONE</th>
-        <th>URGENT</th>
-      </tr>
-      </thead>
-      <tbody>
-      <tr th:each="todo : ${todos}">
-        <td th:text="${todo.getId()}"></td>
-        <td th:text="${todo.getTitle()}"></td>
-        <td th:text="${todo.isDone()}"></td>
-        <td th:text="${todo.isUrgent()}"></td>
-      </tr>
+<h1>Todos for today:</h1>
+<table>
+  <thead>
+  <tr>
+    <th>ID</th>
+    <th>ACTION</th>
+    <th>DONE</th>
+    <th>URGENT</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr th:each="todo : ${todos}">
+    <td th:text="${todo.getId()}"></td>
+    <td th:text="${todo.getTitle()}"></td>
+    <td th:text="${todo.isDone()}"></td>
+    <td th:text="${todo.isUrgent()}"></td>
+  </tr>
 
-      </tbody>
-    </table>
+  </tbody>
+</table>
 </body>
 </html>

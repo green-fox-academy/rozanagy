@@ -1,16 +1,17 @@
 import java.util.HashMap;
-public class mapIntroduction {
-    public static void main(String[] args) {
-        HashMap<Integer, Character> myMap = new HashMap<Integer, Character>();
-        myMap.put(97, 'a');
-        myMap.put(98, 'a');
-        myMap.put(99, 'a');
-        myMap.put(65, 'A');
-        myMap.put(66, 'B');
-        myMap.put(67, 'C');
 
-        System.out.println(myMap.size());
-    }
+public class mapIntroduction {
+  public static void main(String[] args) {
+    HashMap<Integer, Character> myMap = new HashMap<Integer, Character>();
+    myMap.put(97, 'a');
+    myMap.put(98, 'a');
+    myMap.put(99, 'a');
+    myMap.put(65, 'A');
+    myMap.put(66, 'B');
+    myMap.put(67, 'C');
+
+    System.out.println(myMap.size());
+  }
 }
 
 

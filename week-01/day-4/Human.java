@@ -1,8 +1,8 @@
 public class Human {
-    String name;
+  String name;
 
 
-    public static void main(String[] args) {
+  public static void main(String[] args) {
 
-    }
+  }
 }

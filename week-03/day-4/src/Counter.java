@@ -1,44 +1,45 @@
 public class Counter {
 
-    private int value = 0;
+  private int value = 0;
 
-    public Counter() {
+  public Counter() {
 
-    }
+  }
 
-    public Counter(int value) {
-        this.value = value;
-    }
+  public Counter(int value) {
+    this.value = value;
+  }
 
-    public int getValue() {
-        return value;
-    }
+  public int getValue() {
+    return value;
+  }
 
-    public void setValue(int value) {
-        this.value = value;
-    }
+  public void setValue(int value) {
+    this.value = value;
+  }
 
-    public void add(int a) {
-        value = value + a;
+  public void add(int a) {
+    value = value + a;
 
-    }
-    public void add() {
-        value = value + 1;
+  }
 
-    }
+  public void add() {
+    value = value + 1;
 
-    public void reset() {
-        value = 0;
+  }
 
-    }
+  public void reset() {
+    value = 0;
 
-    public static void main(String[] args) {
-        Counter counter = new Counter();
-        counter.add();
-        counter.add(4);
-        int currentValue = counter.getValue();
+  }
 
-    }
+  public static void main(String[] args) {
+    Counter counter = new Counter();
+    counter.add();
+    counter.add(4);
+    int currentValue = counter.getValue();
+
+  }
 }
 /*Create Counter class
 which has an integer field value

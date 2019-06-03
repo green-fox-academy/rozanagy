@@ -32,7 +32,7 @@ public class Main {
       sponsor.hire();
     }
 
-    for(Person person : people) {
+    for (Person person : people) {
       person.introduce();
       person.getGoal();
     }
@@ -46,7 +46,7 @@ public class Main {
 
 
     try {
-      Student johnTheClone = (Student)john.clone();
+      Student johnTheClone = (Student) john.clone();
 
       System.out.println(john.name);
       System.out.println(johnTheClone.name);

@@ -1,29 +1,22 @@
 import java.util.Scanner;
 
 public class DrawTriangle {
-    public static void main(String[] args) {
+  public static void main(String[] args) {
 
-        Scanner input = new Scanner(System.in);
+    Scanner input = new Scanner(System.in);
 
-        System.out.println("Type in a number!");
-        int number = input.nextInt();
-        int i, j;
+    System.out.println("Type in a number!");
+    int number = input.nextInt();
+    int i, j;
 
-        for (i = 1; i <= number; i++)
-        {
-            for (j = 1; j <= i; j++)
-            {
-                System.out.print("*");
-            }
-            System.out.println();
-        }
+    for (i = 1; i <= number; i++) {
+      for (j = 1; j <= i; j++) {
+        System.out.print("*");
+      }
+      System.out.println();
     }
+  }
 }
-
-
-
-
-
 
 
 // Write a program that reads a number from the standard input, then draws a

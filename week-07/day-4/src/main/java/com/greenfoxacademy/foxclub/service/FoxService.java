@@ -19,8 +19,8 @@ public class FoxService {
   }
 
   public boolean searchForFox(String name) {
-    for(Fox fox : foxes) {
-      if(name.equals(fox.getFoxName())) {
+    for (Fox fox : foxes) {
+      if (name.equals(fox.getFoxName())) {
         return true;
       }
     }
@@ -28,8 +28,8 @@ public class FoxService {
   }
 
   public Fox findTheFox(String name) {
-    for(Fox fox : foxes) {
-      if(name.equals(fox.getFoxName())) {
+    for (Fox fox : foxes) {
+      if (name.equals(fox.getFoxName())) {
         return fox;
       }
     }

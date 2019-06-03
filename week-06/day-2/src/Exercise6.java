@@ -6,7 +6,7 @@ public class Exercise6 {
 
     word.chars()
         .filter(w -> Character.isUpperCase(w))
-        .forEach(w -> System.out.println((char)w));
+        .forEach(w -> System.out.println((char) w));
   }
 }
 //Exercise 6

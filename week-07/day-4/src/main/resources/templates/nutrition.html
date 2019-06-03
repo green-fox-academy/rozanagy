@@ -15,15 +15,15 @@
   <label>Food<label>
     <select name="food" th:type="text">
       <option th:each="food : ${foodList}"
-      th:text="${food}"></option>
+              th:text="${food}"></option>
     </select>
-  <label>Drink</label>
+    <label>Drink</label>
     <select name="drink" th:type="text">
       <option th:each="drink : ${drinkList}"
-      th:text="${drink}"></option>
+              th:text="${drink}"></option>
     </select>
-  <input type="submit">Change</input>
-  <input type="hidden" name="name" th:value="${name}">
+    <input type="submit">Change</input>
+    <input type="hidden" name="name" th:value="${name}">
 </form>
 
 </body>

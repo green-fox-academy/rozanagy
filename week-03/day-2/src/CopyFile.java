@@ -5,20 +5,21 @@ import java.nio.file.Files;
 import java.nio.file.StandardCopyOption;
 
 public class CopyFile {
-    public static void main(String[] args) {
-        System.out.println(copyFile("assets/originalFile.txt", "assets/destinationFile.txt"));
+  public static void main(String[] args) {
+    System.out.println(copyFile("assets/originalFile.txt", "assets/destinationFile.txt"));
+  }
+
+  public static boolean copyFile(String copyFromFile, String copyToFile) {
+    Path src = Paths.get(copyFromFile);
+    Path dest = Paths.get(copyToFile);
+    try {
+      Files.copy(src, dest, StandardCopyOption.REPLACE_EXISTING);
+      return true;
+    } catch (IOException e) {
+      e.printStackTrace();
+      return false;
     }
-    public static boolean copyFile(String copyFromFile, String copyToFile) {
-        Path src = Paths.get(copyFromFile);
-        Path dest = Paths.get(copyToFile);
-        try {
-            Files.copy(src, dest, StandardCopyOption.REPLACE_EXISTING);
-            return true;
-        } catch (IOException e) {
-            e.printStackTrace();
-           return false;
-        }
-    }
+  }
 }
 // Write a function that copies the contents of a file into another
 // It should take the filenames as parameters

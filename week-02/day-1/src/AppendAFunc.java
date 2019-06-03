@@ -1,11 +1,12 @@
 public class AppendAFunc {
-    public static void appendAFunc(String typo) {
-        System.out.println(typo + "a");
-    }
-    public static void main(String[] args) {
-        String typo = "Chinchill";
-        appendAFunc(typo);
-    }
+  public static void appendAFunc(String typo) {
+    System.out.println(typo + "a");
+  }
+
+  public static void main(String[] args) {
+    String typo = "Chinchill";
+    appendAFunc(typo);
+  }
 }
 //  Create the usual class wrapper
 //  and main method on your own.

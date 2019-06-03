@@ -1,12 +1,12 @@
 public class Colors {
-    public static void main(String[] args) {
-        String[][] colors = {
-                {"lime", "forest green", "olive", "pale green", "spring green"},
-                {"orange red", "red", "tomato"},
-                {"orchid", "violet", "pink", "hot pink"}
-        };
-        System.out.println(colors[2][1]);
-    }
+  public static void main(String[] args) {
+    String[][] colors = {
+        {"lime", "forest green", "olive", "pale green", "spring green"},
+        {"orange red", "red", "tomato"},
+        {"orchid", "violet", "pink", "hot pink"}
+    };
+    System.out.println(colors[2][1]);
+  }
 }
 // - Create a two dimensional array
 //   which can contain the different shades of specified colors

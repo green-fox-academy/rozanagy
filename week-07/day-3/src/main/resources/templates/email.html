@@ -5,7 +5,9 @@
   <meta charset="utf-8"/>
 </head>
 <body>
-<p th:if="${emailAddress.contains('@') && emailAddress.contains('.')}" th:text=" ${emailAddress} + ' is a valid email address ' " th:style="${'color: green'}"></p><br>
-<p th:unless="${emailAddress.contains('@') && emailAddress.contains('.')}" th:text=" ${emailAddress} + ' is a not valid email address ' " th:style="${'color: red'}"></p><br>
+<p th:if="${emailAddress.contains('@') && emailAddress.contains('.')}"
+   th:text=" ${emailAddress} + ' is a valid email address ' " th:style="${'color: green'}"></p><br>
+<p th:unless="${emailAddress.contains('@') && emailAddress.contains('.')}"
+   th:text=" ${emailAddress} + ' is a not valid email address ' " th:style="${'color: red'}"></p><br>
 </body>
 </html>

@@ -5,21 +5,22 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class WriteMultipleLines {
-    public static void writeMultipleLines(String pathname, String word, int number) {
-        List<String> content = new ArrayList<>();
-        for(int i = 0; i < number; i++) {
-            content.add(word);
-        }
-        try{
-            Path filePath = Paths.get(pathname);
-            Files.write(filePath, content);
-        } catch (Exception e) {
-            System.out.println("We have an error.");
-        }
+  public static void writeMultipleLines(String pathname, String word, int number) {
+    List<String> content = new ArrayList<>();
+    for (int i = 0; i < number; i++) {
+      content.add(word);
     }
-    public static void main(String[] args) {
-        writeMultipleLines("assets/my-file.txt", "apple", 5);
+    try {
+      Path filePath = Paths.get(pathname);
+      Files.write(filePath, content);
+    } catch (Exception e) {
+      System.out.println("We have an error.");
     }
+  }
+
+  public static void main(String[] args) {
+    writeMultipleLines("assets/my-file.txt", "apple", 5);
+  }
 }
 // Create a function that takes 3 parameters: a path, a word and a number
 // and is able to write into a file.

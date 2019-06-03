@@ -23,7 +23,7 @@ public class TennisGame3 implements TennisGame {
       if (pointOfPlayer1 == pointOfPlayer2)
         return "Deuce";
       s = pointOfPlayer1 > pointOfPlayer2 ? playerName1 : playerName2;
-      return ((pointOfPlayer1-pointOfPlayer2)*(pointOfPlayer1-pointOfPlayer2) == 1) ? "Advantage " + s : "Win for " + s;
+      return ((pointOfPlayer1 - pointOfPlayer2) * (pointOfPlayer1 - pointOfPlayer2) == 1) ? "Advantage " + s : "Win for " + s;
     }
   }
 

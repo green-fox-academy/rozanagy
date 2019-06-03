@@ -1,18 +1,21 @@
 public class Counter {
-    int value;
+  int value;
 
-    public Counter() {
-        value = 0;
-    }
-    public void add() {
+  public Counter() {
+    value = 0;
+  }
 
-    }
-    public void get() {
+  public void add() {
 
-    }
-    public void reset() {
+  }
 
-    }
+  public void get() {
+
+  }
+
+  public void reset() {
+
+  }
 }
 /*Create Counter class
 which has an integer field value

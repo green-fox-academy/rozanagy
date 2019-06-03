@@ -20,7 +20,7 @@ public class ListIntroduction2 {
     ListB.add("Lychee");
 
 
-    if(ListA.contains("Durian")) {
+    if (ListA.contains("Durian")) {
       System.out.println("ListA contains Durian.");
     }
 

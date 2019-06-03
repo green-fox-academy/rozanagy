@@ -5,15 +5,15 @@ import java.util.List;
 
 
 public class PrintEachLine {
-    public static void main(String[] args) {
-        try{
-            Path filePath = Paths.get("asset/my-file.txt");
-            List<String> lines = Files.readAllLines(filePath);
-            System.out.println(lines.get(0));
-        } catch (Exception e) {
-            System.out.println("Unable to read file: my-file.txt");
-        }
+  public static void main(String[] args) {
+    try {
+      Path filePath = Paths.get("asset/my-file.txt");
+      List<String> lines = Files.readAllLines(filePath);
+      System.out.println(lines.get(0));
+    } catch (Exception e) {
+      System.out.println("Unable to read file: my-file.txt");
     }
+  }
 }
 // Write a program that opens a file called "my-file.txt", then prints
 // each line from the file.

@@ -22,13 +22,13 @@ main, div:not(.post-bottom) {
 }
 
 
-h2{
-    font-style:normal;
+h2 {
+    font-style: normal;
     font-size: 20px;
     padding: 10px 0 20px 0;
 }
 
-h3{
+h3 {
     padding: 20px 0 5px 0;
     font-size: 15px;
     font-style: bold;
@@ -49,8 +49,8 @@ input[name=blog-title] {
 }
 
 input[type=Submit] {
-    padding:5px 30px; 
-    background:#ccc; 
+    padding: 5px 30px;
+    background: #ccc;
     border-style: 1px, solid;
     -webkit-border-radius: 5px;
     border-radius: 5px;
@@ -58,13 +58,13 @@ input[type=Submit] {
     font-size: 15px;
 }
 
-.post-bottom{
+.post-bottom {
     border: 1px;
     border-style: solid;
     width: 960px;
 }
 
-h1{
+h1 {
     font-size: 30px;
     font-style: bold;
 }

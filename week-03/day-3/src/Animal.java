@@ -1,31 +1,34 @@
 public class Animal {
-    int hungerValue;
-    int thirstValue;
+  int hungerValue;
+  int thirstValue;
 
-    public Animal() {
-        this.hungerValue = 50;
-        this.thirstValue = 50;
-    }
+  public Animal() {
+    this.hungerValue = 50;
+    this.thirstValue = 50;
+  }
 
-    public void eat() {
-        hungerValue -= 1;
-    }
-    public void drink() {
-        thirstValue -= 1;
-    }
-    public void play() {
-        hungerValue++;  thirstValue++;
-    }
+  public void eat() {
+    hungerValue -= 1;
+  }
 
-    public static void main(String[] args) {
-        Animal dog = new Animal();
-        dog.eat();
-        System.out.println(dog.hungerValue);
-        dog.drink();
-        System.out.println(dog.thirstValue);
-        dog.play();
-        System.out.println(dog.hungerValue + " " + dog.thirstValue);
-    }
+  public void drink() {
+    thirstValue -= 1;
+  }
+
+  public void play() {
+    hungerValue++;
+    thirstValue++;
+  }
+
+  public static void main(String[] args) {
+    Animal dog = new Animal();
+    dog.eat();
+    System.out.println(dog.hungerValue);
+    dog.drink();
+    System.out.println(dog.thirstValue);
+    dog.play();
+    System.out.println(dog.hungerValue + " " + dog.thirstValue);
+  }
 }
 /*Create an Animal class
 Every animal has a hunger value, which is a whole number

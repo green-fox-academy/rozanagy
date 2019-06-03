@@ -14,8 +14,9 @@ public class SayHelloToAllTheWorld {
 
   @RequestMapping("/web/sayhello")
   public String hello(Model model) {
-      model.addAttribute("greeting", hellos[greetingSelector()]);
-      model.addAttribute("color", "color: rgb(" + Math.random()*255 + ", " + Math.random()*255 + ", " + Math.random()*255 + ") ;font-size:" + Math.random()*40 + 10 + "px");;
+    model.addAttribute("greeting", hellos[greetingSelector()]);
+    model.addAttribute("color", "color: rgb(" + Math.random() * 255 + ", " + Math.random() * 255 + ", " + Math.random() * 255 + ") ;font-size:" + Math.random() * 40 + 10 + "px");
+    ;
     return "sayHello";
   }
 

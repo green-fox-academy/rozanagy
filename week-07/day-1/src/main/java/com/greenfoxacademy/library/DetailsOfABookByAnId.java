@@ -7,10 +7,10 @@ import org.springframework.web.bind.annotation.RequestMethod;
 
 public class DetailsOfABookByAnId extends BookController {
   @RequestMapping(path = "/books/{id}/details", method = RequestMethod.GET)
-  public String getBookById(Model model, @PathVariable(name="id") Integer id) {
+  public String getBookById(Model model, @PathVariable(name = "id") Integer id) {
     Book bookById = null;
 
-    for(Book book : getBooks()) {
+    for (Book book : getBooks()) {
       if (book.getId() == id) {
         bookById = book;
       }

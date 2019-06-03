@@ -16,8 +16,8 @@ public class SharpieSet {
 
   public int countUsable() {
     int usableSharpieCounter = 0;
-    for(int i = 0; i < SharpieSet.size(); i++) {
-      if(SharpieSet.get(i).inkAmount > 0) {
+    for (int i = 0; i < SharpieSet.size(); i++) {
+      if (SharpieSet.get(i).inkAmount > 0) {
         usableSharpieCounter++;
       }
     }
@@ -25,8 +25,8 @@ public class SharpieSet {
   }
 
   public void removeTrash() {
-    for(int i = 0; i < SharpieSet.size(); i++) {
-      if(SharpieSet.get(i).inkAmount == 0) {
+    for (int i = 0; i < SharpieSet.size(); i++) {
+      if (SharpieSet.get(i).inkAmount == 0) {
         SharpieSet.remove(i);
       }
     }

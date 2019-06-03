@@ -1,8 +1,8 @@
 table {
     width: 700px;
     margin: auto;
-   border-collapse:collapse;
-   border: 1px solid grey;
+    border-collapse: collapse;
+    border: 1px solid grey;
 }
 
 th, td {
@@ -29,7 +29,7 @@ th {
     font-size: 30px;
     height: 50px;
     padding: 15px;
-    vertical-align: middle;   
+    vertical-align: middle;
 }
 
 table {
@@ -40,7 +40,7 @@ table {
 td {
     height: 40px;
     padding: 15px;
-    vertical-align: middle;    
+    vertical-align: middle;
 }
 
 

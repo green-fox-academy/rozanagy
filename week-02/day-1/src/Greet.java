@@ -1,11 +1,12 @@
 public class Greet {
-    public static void greet(String al) {
-        System.out.print("Greetings dear, " + al);
-    }
-    public static void main(String[] args) {
-        String al = "Greenfox";
-        greet(al);
-    }
+  public static void greet(String al) {
+    System.out.print("Greetings dear, " + al);
+  }
+
+  public static void main(String[] args) {
+    String al = "Greenfox";
+    greet(al);
+  }
 }
 //  From now on, create the usual class wrapper
 //  and main method on your own.

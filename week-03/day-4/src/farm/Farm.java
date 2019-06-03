@@ -15,18 +15,18 @@ public class Farm {
 
 
   public void breed() {
-    if(listOfAnimals.size() < slots) {
+    if (listOfAnimals.size() < slots) {
       listOfAnimals.add(new Animal());
     }
   }
 
   public void slaughter() {
     int indexOfAnimal = 0;
-    for(int i = 0; i < listOfAnimals.size(); i++) {
-      if(listOfAnimals.get(i).hungerValue > listOfAnimals.get(i + 1).hungerValue) {
+    for (int i = 0; i < listOfAnimals.size(); i++) {
+      if (listOfAnimals.get(i).hungerValue > listOfAnimals.get(i + 1).hungerValue) {
         indexOfAnimal = i;
       } else {
-        indexOfAnimal = i+ 1;
+        indexOfAnimal = i + 1;
       }
     }
     listOfAnimals.remove(indexOfAnimal);

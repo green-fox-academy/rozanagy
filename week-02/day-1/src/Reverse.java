@@ -1,16 +1,16 @@
 import java.sql.SQLOutput;
 
 public class Reverse {
-    public static void main(String[] args) {
-        int[] aj = {3, 4, 5, 6, 7};
-        for(int i = 0; i < aj.length; i++) {
-            System.out.print(aj[i] + " ");
-        }
-        System.out.println();
-        for(int i = aj.length - 1; i >= 0; i--) {
-            System.out.print(aj[i] + " ");
-        }
+  public static void main(String[] args) {
+    int[] aj = {3, 4, 5, 6, 7};
+    for (int i = 0; i < aj.length; i++) {
+      System.out.print(aj[i] + " ");
     }
+    System.out.println();
+    for (int i = aj.length - 1; i >= 0; i--) {
+      System.out.print(aj[i] + " ");
+    }
+  }
 }
 // - Create an array variable named `aj`
 //   with the following content: `[3, 4, 5, 6, 7]`

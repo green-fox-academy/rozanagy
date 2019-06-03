@@ -1,14 +1,15 @@
 public class Factorio {
-    public static int factorio(int x) {
-        int count = 1;
-        for (int i = 1; i <= x; i++) {
-            count *= i;
-        }
-        return count;
+  public static int factorio(int x) {
+    int count = 1;
+    for (int i = 1; i <= x; i++) {
+      count *= i;
     }
-    public static void main(String[] args) {
-        System.out.println(factorio(7));
-    }
+    return count;
+  }
+
+  public static void main(String[] args) {
+    System.out.println(factorio(7));
+  }
 }
 
 //  Create the usual class wrapper

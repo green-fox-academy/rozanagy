@@ -24,16 +24,6 @@ public class Main {
     farm.slaughter();
 
 
-
-
-
-
-
-
-
-
-
-
   }
 }
 

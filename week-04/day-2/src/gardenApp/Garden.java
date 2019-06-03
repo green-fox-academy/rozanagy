@@ -24,8 +24,8 @@ public class Garden {
 
   public void doWatering() {
     for (int i = 0; i < flowers.size(); i++) {
-      for(int j = 0; j < trees.size(); j++) {
-        if(flowers.get(i).needWatering() ) {
+      for (int j = 0; j < trees.size(); j++) {
+        if (flowers.get(i).needWatering()) {
 
         }
       }
