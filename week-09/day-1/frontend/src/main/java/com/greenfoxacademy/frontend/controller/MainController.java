@@ -65,16 +65,17 @@ public class MainController {
 
   @PostMapping("/arrays")
   public Object countWithArray(@RequestBody Array array) {
-    ResultArray resultArray = new ResultArray();
-    if (array.getWhat().equals("sum")) {
-      return resultArray.sumArray(array.getNumbers());
-    } else if (array.getWhat().equals("multiply")) {
-      return resultArray.multiplyArray(array.getNumbers());
-    } else if (array.getWhat().equals("double")) {
-      return resultArray.doubleArray(array.getNumbers());
-    } else {
-      return new ErrorSentence("Please provide what to do with the numbers!");
+    if(array.getWhat() != null || array.getNumbers() != null) {
+      ResultArray resultArray = new ResultArray();
+      if (array.getWhat().equals("sum")) {
+        return resultArray.sumArray(array.getNumbers());
+      } else if (array.getWhat().equals("multiply")) {
+        return resultArray.multiplyArray(array.getNumbers());
+      } else if (array.getWhat().equals("double")) {
+        return resultArray.doubleArray(array.getNumbers());
+      }
     }
+    return new ErrorSentence("Please provide what to do with the numbers!");
   }
 }
 
