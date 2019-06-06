@@ -56,6 +56,16 @@ public class MainControllerTest {
         .andExpect(status().isOk())
         .andExpect(jsonPath("$.result", is(6)));
   }
+
+  @Test
+  public void countWithArraySuccessful() throws Exception {
+    mockMvc.perform(post("/arrays")
+        .contentType(MediaType.APPLICATION_JSON)
+        .content("{\"what\": \"sum\", \"numbers\": \"[1, 2, 5, 10]\"}"))
+        .andExpect(status().isOk())
+        .andExpect(content().contentType(contentType))
+        .andExpect(jsonPath("$.result", is(18)));
+  }
 }
 
 

@@ -68,7 +68,8 @@ public class MainController {
     if(array.getWhat() != null || array.getNumbers() != null) {
       ResultArray resultArray = new ResultArray();
       if (array.getWhat().equals("sum")) {
-        return resultArray.sumArray(array.getNumbers());
+        resultArray.sumArray(array.getNumbers());
+        return resultArray;
       } else if (array.getWhat().equals("multiply")) {
         return resultArray.multiplyArray(array.getNumbers());
       } else if (array.getWhat().equals("double")) {

@@ -22,7 +22,8 @@ public class ResultArray {
     for(int i = 0; i < number.length; i++) {
       sum += number[i];
     }
-    return sum;
+    result = sum;
+    return result;
   }
 
   public int multiplyArray(int[] number) {
